@@ -1,0 +1,26 @@
+/bin/sh /usr/local/netbeans-8.2/bin/netbeans
+
+sudo /etc/init.d/mysql start
+mysql -h localhost -u root -p
+
+youtube-dl -x --audio-format mp3 https://www.youtube.com/watch?v=yXqgT73Gvq4&list=PLVOYP_OjYz-WXDw1-AoRn7IFs0xGibTpP&index=7&t=0s
+
+youtube-dl --playlist-start 1 --playlist-end 28 -x --audio-format mp3 https://www.youtube.com/playlist?list=PLVOYP_OjYz-WXDw1-AoRn7IFs0xGibTpP
+
+youtube-dl --playlist-start 1 --playlist-end 20 https://www.youtube.com/playlist?list=PLovStLXqoeZ1ncXap2csJ-FKgLuCyPQzY
+
+/etc/init.d/apache2 start/stop/restart
+
+sudo /etc/init.d/mysql start
+
+systemctl restart apache2
+
+/opt/lampp/lampp start
+
+
+
+A : 7420 9729 6003
+P : BPIPB1814D
+E : TZX2253599
+
+
